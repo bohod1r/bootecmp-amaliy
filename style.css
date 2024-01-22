@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+body {
+    background: #014E56;
+    margin: 0;
+}
+.header-content{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 83px 163px;
+}
+.safi-header {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+} 
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-pic-logo {
+    width: 160px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.header-item-link {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+    padding: 40px;
+}
+
+.contact-btn {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+    background-color: #014E56;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    text-decoration: none;
+}
